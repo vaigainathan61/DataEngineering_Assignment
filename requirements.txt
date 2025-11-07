@@ -1,3 +1,29 @@
-pandas
-requests
-sqlalchemy
+requirements.txt
+
+
+
+pandas==2.2.3
+requests==2.32.3
+SQLAlchemy==2.0.36
+sqlite-utils==3.36
+python-dotenv==1.0.1
+
+
+Explanation of each package
+
+
+
+Library	Purpose
+pandas	For reading and transforming CSV data
+requests	For calling the OMDb API
+SQLAlchemy	For connecting and writing data to SQLite (or other DBs)
+sqlite-utils	(Optional) For quick database inspection and testing
+python-dotenv	(Optional) To manage your OMDb API key securely via .env file
+
+
+
+How to use it
+
+Once this file is in your project root, anyone can install dependencies with:
+
+pip install -r requirements.txt
